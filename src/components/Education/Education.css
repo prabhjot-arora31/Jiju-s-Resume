@@ -1,0 +1,81 @@
+.yes {
+  display: none;
+}
+.edu {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.expe {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.edu .college {
+  border: 2px solid black;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+  text-align: center;
+}
+.expe .work {
+  border: 2px solid black;
+  padding: 0.7rem;
+  width: 400px;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+  text-align: center;
+}
+.expe > .work:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.achievement {
+  width: 400px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.achievement > div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.achievement div {
+  /* width: 100%; */
+  transition: all 0.3s;
+  /* display: flex; */
+  border-radius: 0.7rem;
+  border: 2px solid black;
+  justify-content: center;
+}
+.edu .college:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.edu .college .inner {
+  display: flex;
+  justify-content: space-around;
+}
+.edu .college .inner div {
+  border: 2px solid black;
+  padding: 0.3rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  border-radius: 0.6rem;
+}
+.college:hover {
+  .inner div {
+    border-color: white;
+  }
+}
