@@ -82,7 +82,7 @@
   border-radius: 0.6rem;
 }
 .college:hover {
-  .inner div {
-    border: 2px solid white;
+  .edu .college .inner div{
+    border-color:white;
   }
 }
