@@ -71,6 +71,8 @@ hr {
   .map {
     width: 400px;
     height: 400px;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
   }
   hr {
     display: block;
