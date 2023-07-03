@@ -61,6 +61,12 @@
 .edu .college:hover {
   background-color: black;
   color: white;
+  .college .inner {
+    border-color: white;
+  }
+  .college .inner div {
+    border-color: white;
+  }
   border-color: white;
   cursor: pointer;
 }
