@@ -34,7 +34,9 @@ const Contact = (props) => {
             ></iframe>
           </div>
         </div>
-        <hr />
+        <hr
+          style={{ backgroundColor: "lightgray", height: "2px", width: "100%" }}
+        />
         <div className="contact">
           <h5 style={{ fontWeight: "700" }}>
             <a
