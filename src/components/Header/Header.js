@@ -60,7 +60,7 @@ const Header = (props) => {
             <h2 className="x">X</h2>
           </div>
         </div>
-        <div className={hamburgerDisplay}} onClick={ShowMenu}>
+        <div className={hamburgerDisplay} onClick={ShowMenu}>
           <img
             src={require("../../assets/images/hamburger_menu.png")}
             style={{ width: "30px" }}
