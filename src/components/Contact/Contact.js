@@ -44,17 +44,7 @@ const Contact = (props) => {
               MAIL: karan.reel@gmail.com
             </a>
           </h5>
-          <div>
-            <hr
-              style={{
-                display: "block",
-                width: "1px",
-                backgroundColor: "gray",
-                color: "gray",
-                height: "12px",
-              }}
-            />
-          </div>
+          <div></div>
           <h5 style={{ fontWeight: "700" }}>PHONE: 9039273469</h5>
         </div>
       </div>
