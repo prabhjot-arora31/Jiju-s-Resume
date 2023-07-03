@@ -16,6 +16,9 @@
   width: 600px;
   height: 450px;
   border: 0;
+  
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
   margin-bottom: 2rem;
 }
 .first form {
