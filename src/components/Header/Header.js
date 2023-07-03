@@ -22,9 +22,9 @@ const Header = (props) => {
   return (
     <>
       {props.handleCallBack(hideHome)}
-      <div className="mainHeader" style={{position:'sticky'}}>
+      <div className="mainHeader">
         <div className={nameDisplay}>
-          <h1>Lavneet</h1>
+          <h1 style={{position:'sticky'}}>Lavneet</h1>
         </div>
         <div className="small">
           <Link to="/" className="link">
@@ -60,7 +60,7 @@ const Header = (props) => {
             <h2 className="x">X</h2>
           </div>
         </div>
-        <div className={hamburgerDisplay} onClick={ShowMenu}>
+        <div className={hamburgerDisplay} style={{position:'sticky'}} onClick={ShowMenu}>
           <img
             src={require("../../assets/images/hamburger_menu.png")}
             style={{ width: "30px" }}
