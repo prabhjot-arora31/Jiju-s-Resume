@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Header handleCallBack={callBack} />
+        <Header handleCallBack={callBack} style={{position:'sticky'}} />
         <div style={{display:hide=="yes"?'none':'block',backgroundColor:'black',width:'100%',height:'3px',marginBottom:'0.45rem'}}></div>
         <Routes>
           <Route path="/" element={<Home hide={hide} />} />
