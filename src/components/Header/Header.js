@@ -22,7 +22,7 @@ const Header = (props) => {
   return (
     <>
       {props.handleCallBack(hideHome)}
-      <div className="mainHeader">
+      <div className="mainHeader" style={{position:'sticky'}}>
         <div className={nameDisplay}>
           <h1>Lavneet</h1>
         </div>
